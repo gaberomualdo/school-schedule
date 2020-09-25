@@ -128,3 +128,7 @@ const loadScript = (url) => {
     updateTextStatus('No Schedule Selected');
   }
 })();
+
+window.addEventListener('load', () => {
+  document.body.style.height = `${window.innerHeight}px`;
+});
